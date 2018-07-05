@@ -1,7 +1,6 @@
 
 var newElem = document.createElement("div");
 newElem.innerHTML = " ";
-newElem.style.color = "red";
 document.body.appendChild(newElem);
 newElem.className += ("dane-programisty");
 
