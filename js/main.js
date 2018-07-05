@@ -1,9 +1,7 @@
-
 var newElem = document.createElement("div");
 newElem.innerHTML = " ";
 document.body.appendChild(newElem);
 newElem.className += ("dane-programisty");
-
 
 $("button").click(function getJsonToDive() {
     var html = '';
@@ -16,7 +14,6 @@ $("button").click(function getJsonToDive() {
                 html += '<div>' + key + ':' + value + '</div>'
             }
             $("body").append(html);
-
         }
     });
 })
