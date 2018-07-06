@@ -13,7 +13,7 @@ $("button").click(function getJsonToDive() {
                 var value = data[key];
                 html += '<div>' + key + ':' + value + '</div>'
             }
-            $("body").append(html);
+            $("div").append(html);
         }
     });
 })
