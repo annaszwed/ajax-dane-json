@@ -1,5 +1,4 @@
 var newElem = document.createElement("div");
-newElem.innerHTML = " ";
 document.body.appendChild(newElem);
 newElem.className += ("dane-programisty");
 
